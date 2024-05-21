@@ -1,11 +1,21 @@
 body{
     background-color: #000;
     background-image: url('../img/fsf.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-size: 105.3%;
     }
+
 header{
     padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.logo img{
+
+}
+
 .logo{
     padding: 0%;
     margin-left: 1%;
@@ -19,8 +29,36 @@ header{
     margin-right: 40%;
 
 }
+.titulos{
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;   
+}
 figure{
-    margin-left: 30%;
+    width: 70%;
+}
+
+figure img{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px darkblue;
+    max-width: 100%;
+    height: auto;
+}
+
+figure figcaption{
+    margin: 1.0em;
+    text-align: center;
+    color: yellow;
+}
+
+.caixa-img{
+    text-align: center;
+    margin-top: 1%;
+}
+
+menu{
+
 }
 
 #menu ul { 
@@ -32,16 +70,21 @@ figure{
 
 #menu ul li {
     display: inline; 
+    font-size: 1,2em;
 }
 
 #menu ul li a { 
     padding: 2px 1px; 
     display: inline-block;
     text-decoration: none; 
-    border-bottom:3px solid #5900ffad; 
+    border-bottom:3px none #5900ffad; 
+    white-space: nowrap;
+    color: #5900ffad;
 }
 
 nav{
+
+    width: 47%;
 
 }
 
@@ -55,9 +98,18 @@ section{
 
 footer{
     padding: 3%;
+    color: rgb(183, 105, 255);
 }
 
 .logo{
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.5em;
 }
 
 p{
